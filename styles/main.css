@@ -48,26 +48,33 @@ main>aside{
 main aside>li{
   width: 200px;
   height: 500px;
-  margin: 0 30px 20px 10px;
-  background-color: blue;
-  display:inline-block;
+  margin: 0 30px 20px 20px;
+  background-color: pink;
+display:inline-block;
+}
+  main aside>li>section{
+    width: 200px;
+    height: 500px;
+    margin: 0px 30px 20px 250px;
+    background-color: red;
+    display:inline-block;
+  }
+  main aside>li>section>nav{
+    width: 200px;
+    height: 500px;
+    margin: 0px 30px 20px 300px;
+    background-color: yellow;
+    display:inline-block;
+  }
+ 
+main aside>li>section>nav>did{
+width: 30px;
+height: 30px;
+margin: 0 30px 20px 10px;
+background-color: black;
+display:inline-block;
+}
 
-}
-main aside>li>p{
-  width: 30px;
-  height: 30px;
-  margin: 0 30px 20px 10px;
-  background-color: black;
-  display:inline-block;
-}
-
-main aside>li>p{
-  width: 30px;
-  height: 30px;
-  margin: 0 30px 20px 10px;
-  background-color: red;
-  display:inline-block;
-}
 nav{
   background-color: #FF1744;
   text-align: center;
@@ -89,4 +96,65 @@ nav ul li a{
   background-color: blueviolet;
 }
 
+
+/*PAGINA 2 */
+
+
+main>section>div{
+  width: 105px;
+  height: 105px;
+  background-color: bisque;
+  display: inline-block;
+  border-radius: 50%;
+  margin: auto;
+}
+
+/*PARTE DEL MEDIO*/
+main>footer{
+  background-color: red;
+  width: 300px;
+  height: 230px;
+  display: inline-block;
+  margin: 10px 110px ;
+  padding-left: 10px;
+}
+main>footer>section{
+  width: 140px;
+  height: 140px;
+  background-color: bisque;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 50px 0px;
+}
+
+/*PARTE DE ABAJO*/
+main>nav{
+  width: 120px;
+  height: 200px;
+  background-color: bisque;
+  display: inline-block;
+  margin: 10px 5px ; 
+}
+main>nav>section{
+  width: 100px;
+  height: 160px;
+  background-color: red;
+  margin: 20px 8px ;
+  border-radius: 45%;
+}
+main>aside{
+  width: 180px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+  margin: 10px 5px ; 
+}
+main>aside>section{
+  width: 85px;
+  height: 85px;
+  background-color: bisque;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 8.7px 1px;
+}
 
