@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+  width: 970px;
+    height: 1390px;
+    background-color: green;
+    margin: 20px;
+    padding: 10px 5px 30px 0;
+   
+}
+main article{
+  width: 200px;
+  height: 200px;
+  margin: 0 30px 20px 10px;
+  background-color: blue;
+  display:inline-block;
+}
+main article>p{
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+  border-radius: 50%;
+}
+main footer{
+  width: 250px;
+  height: 250px;
+  margin: 0 30px 20px 10px;
+  background-color: yellow;
+  display:inline-block;
+}
+main footer>div{
+  width: 250px;
+  height: 250px;
+  background-color: peru;
+  border-radius: 50%;
+}
+main>aside{
+  width: 900px;
+    height: 500px;
+    background-color: white;
+    margin: 20px;
+    padding: 10px 5px 30px 0;
+}
+
+main aside>li{
+  width: 200px;
+  height: 500px;
+  margin: 0 30px 20px 10px;
+  background-color: blue;
+  display:inline-block;
+
+}
+main aside>li>p{
+  width: 30px;
+  height: 30px;
+  margin: 0 30px 20px 10px;
+  background-color: black;
+  display:inline-block;
+}
+
+main aside>li>p{
+  width: 30px;
+  height: 30px;
+  margin: 0 30px 20px 10px;
+  background-color: red;
+  display:inline-block;
+}
+nav{
+  background-color: #FF1744;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a{
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
+.active{
+  background-color: blueviolet;
+}
+
+
