@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-main{
+.page1{
   width: 970px;
     height: 1390px;
     background-color: green;
@@ -11,33 +11,33 @@ main{
     padding: 10px 5px 30px 0;
    
 }
-main article{
+.page1 article{
   width: 200px;
   height: 200px;
-  margin: 0 30px 20px 10px;
+  margin: 0 30px 20px 80px;
   background-color: blue;
   display:inline-block;
 }
-main article>p{
+.page1 article>p{
   width: 200px;
   height: 200px;
   background-color: bisque;
   border-radius: 50%;
 }
-main footer{
+.page1 footer{
   width: 250px;
   height: 250px;
-  margin: 0 30px 20px 10px;
+  margin: 0 30px 20px 150px;
   background-color: yellow;
   display:inline-block;
 }
-main footer>div{
+.page1 footer>div{
   width: 250px;
   height: 250px;
   background-color: peru;
   border-radius: 50%;
 }
-main>aside{
+.page1>aside{
   width: 900px;
     height: 500px;
     background-color: white;
@@ -45,36 +45,28 @@ main>aside{
     padding: 10px 5px 30px 0;
 }
 
-main aside>li{
+.page1 aside>li{
   width: 200px;
-  height: 500px;
-  margin: 0 30px 20px 20px;
-  background-color: pink;
-display:inline-block;
-}
-  main aside>li>section{
-    width: 200px;
-    height: 500px;
-    margin: 0px 30px 20px 250px;
-    background-color: red;
-    display:inline-block;
-  }
-  main aside>li>section>nav{
-    width: 200px;
-    height: 500px;
-    margin: 0px 30px 20px 300px;
-    background-color: yellow;
-    display:inline-block;
-  }
- 
-main aside>li>section>nav>did{
-width: 30px;
-height: 30px;
-margin: 0 30px 20px 10px;
-background-color: black;
-display:inline-block;
-}
+  height: 400px;
+  margin: 0 30px 20px 10px;
+  background-color: blue;
+  display:inline-block;
 
+}
+.page1 aside>li>nav{
+  width: 100px;
+  height: 100px;
+  margin: 0 30px 20px 35px;
+  background-color: black;
+  display:center;
+
+}
+.page1 aside>li>nav>li>div{
+  width: 50px;
+  height: 50px;
+  background-color:red;
+  border-radius: 50%;
+}
 nav{
   background-color: #FF1744;
   text-align: center;
@@ -99,18 +91,36 @@ nav ul li a{
 
 /*PAGINA 2 */
 
-
-main>section>div{
-  width: 105px;
-  height: 105px;
+/* ARRIBA*/
+.page2{
+  width: 970px;
+    height: 1390px;
+    background-color: green;
+    margin: 20px;
+    padding: 10px 5px 30px 0;
+   
+}
+.page2 section{
+  width: 250px;
+  height: 250px;
+  margin: 0 30px 20px 80px;
+  background-color: blue;
+  display:inline-block;
+}
+.page2 section div{
+  width: 100px;
+  height: 100px;
   background-color: bisque;
   display: inline-block;
   border-radius: 50%;
   margin: auto;
 }
-
+.page2 div{
+  width: fit-content;
+  margin: auto;
+}
 /*PARTE DEL MEDIO*/
-main>footer{
+.page2 div footer{
   background-color: red;
   width: 300px;
   height: 230px;
@@ -118,7 +128,7 @@ main>footer{
   margin: 10px 110px ;
   padding-left: 10px;
 }
-main>footer>section{
+.page2 div section{
   width: 140px;
   height: 140px;
   background-color: bisque;
@@ -128,32 +138,79 @@ main>footer>section{
 }
 
 /*PARTE DE ABAJO*/
-main>nav{
+.page2 nav{
   width: 120px;
   height: 200px;
   background-color: bisque;
   display: inline-block;
-  margin: 10px 5px ; 
+  margin: 50px;
 }
-main>nav>section{
+.page2 nav section{
   width: 100px;
   height: 160px;
   background-color: red;
-  margin: 20px 8px ;
+  margin: 20px 10px ;
   border-radius: 45%;
 }
-main>aside{
+.page2 aside{
   width: 180px;
   height: 200px;
   background-color: red;
   display: inline-block;
-  margin: 10px 5px ; 
+  margin: 10px  ; 
 }
-main>aside>section{
+.page2 aside section{
   width: 85px;
   height: 85px;
   background-color: bisque;
   display: inline-block;
   border-radius: 50%;
-  margin: 8.7px 1px;
+  margin: 9px 1px;
+}
+
+/*PAGINA 3 */
+.page3{
+  width: 970px;
+    height: 1390px;
+    background-color: green;
+    margin: 20px;
+    padding: 10px 5px 30px 0;
+   
+
+}
+.page3 section>div{
+  width: 200px;
+  height: 200px;
+  margin: 0 0px 20px 130px;
+  background-color: blue;
+  display: inline-block;
+}
+.page3 section>div>footer{
+  width: 100px;
+  height: 100px;
+  margin:50px;
+  background-color: red;
+  display: inline-block;
+}
+
+.page3 section>div>footer>nav{
+  width: 30px;
+  height: 40px;
+  background-color: yellowgreen;
+  border-radius: 50%;
+  display: inline-block;
+}
+.page3 section>div>footer>main{
+  width: 20px;
+  height: 15px;
+  margin:5px;
+  background-color:black;
+  display: inline-block;
+}
+.page3 section>div>footer>main>aside{
+  width: 20px;
+  height: 15px;
+  background-color:blanchedalmond;
+  border-radius: 50%;
+  display: inline-block;
 }
