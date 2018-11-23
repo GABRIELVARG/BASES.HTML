@@ -203,14 +203,34 @@ nav ul li a{
 .page3 section>div>footer>main{
   width: 20px;
   height: 15px;
-  margin:5px;
+  margin:20px 11px 0 0;
   background-color:black;
   display: inline-block;
 }
 .page3 section>div>footer>main>aside{
   width: 20px;
   height: 15px;
-  background-color:blanchedalmond;
+  background-color:green;
   border-radius: 50%;
+  display: inline-block;
+}
+.page3 main{
+  width: 500px;
+  height: 200px;
+  margin: 0 0px 20px 130px;
+  background-color: yellow;
+  display: inline-block;
+}
+.page3 main>footer{
+  width: 400px;
+  height: 180px;
+  margin:11px 15px 15px 50px;
+  background-color: red;
+}
+.page3 main>footer>aside{
+  width: 103px;
+  height: 150px;
+  margin: 11px 15px 50px;
+  background-color: black;
   display: inline-block;
 }
